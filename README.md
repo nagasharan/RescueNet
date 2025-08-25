@@ -1,2 +1,6 @@
 # RescueNet
 Identifying Damage levels in post Hazards scenario using semantic segmentation and machine learning
+
+
+Natural hazards have threatened human civilization for centuries, causing significant loss of life and property. However, the magnitude of these losses is often exacerbated by delays in post-disaster response rather than the hazard itself. Machine learning and artificial intelligence advancements offer promising solutions to bridge this critical response gap. Among these, semantic segmentation, a powerful deep learning technique, is crucial in identifying damage levels caused by hurricanes. This study uses historical damage data from past hurricanes to train and evaluate four segmentation models: Pyramid Scene Parsing Network (PSPNet), DeepLabV3+, Segmenter, and Attention U-Net. Among them, Segmenter achieved the highest mean Intersection over Union (IoU) of (70.36\%), pixel accuracy (87.02\%), and PSPNet ranked second with the highest recorded values for precision (72.2\%), recall (62.2\%), and F1 score (64.5\%). This comparative analysis highlights the effectiveness of different architectures for disaster assessment and response planning, with PSPNet and Segmenter standing out as the most reliable models for fine-grained damage detection.
+
